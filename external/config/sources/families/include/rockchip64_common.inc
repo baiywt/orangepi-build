@@ -254,7 +254,7 @@ family_tweaks()
 
 	[[ "$BRANCH" =~ legacy|current ]] && rk3399_gpu_vpu_tweaks
 	[[ "$BRANCH" =~ legacy && "$BOARD" =~ orangepi5|orangepi5b ]] && rk3588_gpu_vpu_tweaks
-	[[ "$BRANCH" == current && "$BOARD" == orangepicm4 ]] && rk356x_gpu_vpu_tweaks
+	[[ "$BRANCH" == legacy && "$BOARD" == orangepicm4 ]] && rk356x_gpu_vpu_tweaks
 
 	#if [[ ${BOARD} == orangepi800 && ${SELECTED_CONFIGURATION} == desktop && ${RELEASE} =~ bullseye|bookworm ]]; then
 
