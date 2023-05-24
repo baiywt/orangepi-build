@@ -136,7 +136,7 @@ uboot_custom_postprocess()
 			#/sbin/parted -s rkspi_loader.img unit s mkpart reserved2 8192 16383
 			dd if=idbloader.img of=rkspi_loader.img seek=64 conv=notrunc
 			dd if=u-boot.itb of=rkspi_loader.img seek=1024 conv=notrunc
-			#dd if=$EXTER/packages/blobs/splash/logo.bmp of=rkspi_loader.img seek=8192 conv=notrunc
+			dd if=$EXTER/packages/blobs/splash/logo.bmp of=rkspi_loader.img seek=8192 conv=notrunc
 
 		fi
 	fi
