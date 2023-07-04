@@ -477,6 +477,7 @@ FAMILY_TWEAKS
 
 	# copy "first run automated config, optional user configured"
  	cp ${EXTER}/packages/bsp/orangepi_first_run.txt.template "${SDCARD}"/boot/orangepi_first_run.txt.template
+ 	cp ${EXTER}/packages/bsp/orangepi_first_run.txt "${SDCARD}"/boot/orangepi_first_run.txt
 
 	## switch to beta repository at this stage if building nightly images
 	#[[ $IMAGE_TYPE == nightly ]] \
