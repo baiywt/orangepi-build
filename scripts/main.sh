@@ -236,7 +236,6 @@ if [[ -z $BOARD ]]; then
 	options+=("orangepi5plus"                 "Rockchip  RK3588 octa core 4-32GB RAM 2.5GBE USB3 USB-C WiFi/BT NVMe eMMC")
 	options+=("orangepicm4"                 "Rockchip  RK3566 quad core 4GB RAM GBE eMMC USB3 NvMe WiFi/BT")
 	options+=("orangepi3b"                  "Rockchip  RK3566 quad core 4GB RAM GBE eMMC USB3 NvMe WiFi/BT")
-	options+=("orangepirobot"                  "Rockchip  RK3566 quad core 4GB RAM GBE eMMC USB3 NvMe WiFi/BT")
 	#options+=("orangepir1plus"              "Rockchip  RK3328 quad core 1GB RAM 2xGBE USB2 SPI")
 
 	menustr="Please choose a Board."

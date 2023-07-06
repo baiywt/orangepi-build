@@ -1,7 +1,7 @@
 rk356x_gpu_vpu_tweaks()
 {
 
-	if [[ ${BOARD} =~ orangepicm4|orangepi3b|orangepirobot && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == focal ]]; then
+	if [[ ${BOARD} =~ orangepicm4|orangepi3b && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == focal ]]; then
 
 		rk356x_deb+=("rk356x_packages/libmali/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb")
 		rk356x_deb+=("rk356x_packages/rga2/librga2_2.2.0-1_arm64.deb")
@@ -102,7 +102,7 @@ rk356x_gpu_vpu_tweaks()
 
 	fi
 
-	if [[ ${BOARD} =~ orangepicm4|orangepi3b|orangepirobot && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == jammy ]]; then
+	if [[ ${BOARD} =~ orangepicm4|orangepi3b && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == jammy ]]; then
 	
 		rk356x_deb+=("rk356x_packages/libmali/libmali-bifrost-g52-g2p0-x11-gbm_1.9-1_arm64.deb")
 
@@ -208,7 +208,7 @@ rk356x_gpu_vpu_tweaks()
 	fi
 
 
-	if [[ ${BOARD} =~ orangepicm4|orangepi3b|orangepirobot && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == bullseye ]]; then
+	if [[ ${BOARD} =~ orangepicm4|orangepi3b && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == bullseye ]]; then
 
 		rk356x_deb+=("rk3588_packages_bullseye/rga2/librga2_2.2.0-1_arm64.deb")
 		rk356x_deb+=("rk3588_packages_bullseye/rga2/librga-dev_2.2.0-1_arm64.deb")
